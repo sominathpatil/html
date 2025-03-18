@@ -1,0 +1,63 @@
+
+@media (min-width: 1440px) or (min-width: 0px) {
+     body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(jcb.jpg);
+    background-size: cover;
+}
+* {
+   font-family: Arial, sans-serif;
+}
+.container {
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #000;
+  
+}
+
+.registration {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+    font-size: 28px;
+  font-weight: bold;
+  color: rgb(9, 7, 10);
+  margin-bottom: 20px;
+  font-family: algerian;
+
+input[type="text"],
+input[type=" "],
+input[type="date"],
+textarea {
+    width: 100%;
+  padding: 10px;
+  padding: 150px 30px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+button#submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#submit:hover {
+    background-color: #45a049;
+}
+}
